@@ -1,0 +1,50 @@
+.headerinicio{
+    background-color: rgb(0, 136, 255);
+}
+
+header img{
+    border-radius: 50%;
+    width: 150px;
+}
+
+.nav-link{
+    color: black;
+    font-weight: bold;
+    
+}
+
+.navbar-expand-lg .navbar-collapse {
+    justify-content: center;
+}
+
+.titulo{
+    color: black;
+    font-weight: bold;
+    text-align: center;
+}
+
+/* modifica el color de texto cuando hago click en preguntas */
+.accordion-button:not(.collapsed) {
+    color: black;
+}
+
+
+
+/* modifca el color de  texto de las preguntas */
+.accordion {
+    --bs-accordion-btn-color: #ed6606;
+}
+
+/* modifica el fondo cuando hago click en la pregunta */
+.accordion {
+
+    --bs-accordion-bg: white;
+    --bs-accordion-active-bg: #6c757d9e;
+}
+
+/* modifica el boton de enviar en la pagina de contacto */
+.btn-primary {
+    --bs-btn-color: black;
+    --bs-btn-bg: orange;
+    --bs-btn-border-color: black;
+}
